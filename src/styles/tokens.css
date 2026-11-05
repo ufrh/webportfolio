@@ -1,0 +1,6 @@
+:root {
+  /* Initial values only: refine these against the Studio prototype. */
+  --color-background: #124c3b;
+  --color-foreground: #f2d9a6;
+  --font-body: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}

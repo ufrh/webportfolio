@@ -1,25 +1,31 @@
 # Web Portfolio
 
-Personal web portfolio built with React, TypeScript, and Vite.
+Personal portfolio built with **React + TypeScript + Vite**. The current app is an intentionally minimal starting point: the Studio design will be translated into real components and responsive CSS in later iterations.
 
-## Local development
+## Run locally
+
+Requires a Node.js version supported by Vite 7 (Node 20.19+ or 22.12+).
 
 ```bash
 npm install
 npm run dev
 ```
 
-## Commands
+## Scripts
 
-- `npm run dev` — local development server
-- `npm run build` — TypeScript check and production build
+- `npm run dev` — start development server
+- `npm run typecheck` — run TypeScript checks
+- `npm run build` — type-check and produce a `dist/` build
 - `npm run preview` — preview the production build
-- `npm run lint` — ESLint checks
 
-## Structure
+## Project layout
 
-- `src/components/` — reusable UI components
-- `src/styles/` — design tokens, global styles, and page styles
-- `public/assets/` — static images, video, and other site assets
+```text
+public/assets/       Static media (including future satin video)
+src/components/      Reusable UI components
+src/styles/          Tokens, global reset, and layout styles
+src/App.tsx          Application entry component
+src/main.tsx         React DOM bootstrap
+```
 
-Design and implementation are developed incrementally from the visual prototype.
+No UI framework, routing, or animation library has been added yet. We'll introduce tools only when the design needs them.
